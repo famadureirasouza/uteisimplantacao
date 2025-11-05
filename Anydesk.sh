@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# sudo wget --inet4-only -O-
 
 # URL da página HTML
 url="https://download.anydesk.com/linux/"
