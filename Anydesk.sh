@@ -1,5 +1,5 @@
 #!/bin/bash
-# sudo wget --inet4-only -O-
+# sudo wget --inet4-only -O- https://raw.githubusercontent.com/famadureirasouza/uteisimplantacao/refs/heads/main/Anydesk.sh | bash
 
 # URL da página HTML
 url="https://download.anydesk.com/linux/"
