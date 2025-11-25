@@ -102,8 +102,6 @@ log "Restaurando Backups...."
 
 log "Instalação Concluida"
 echo "*****************Instalação Concluida*************************"
-log "Instalação Concluida"
-echo "*****************Instalação Concluida*************************"
 log "Reiniciando...."
 echo "Reiniciando Terminal em 5..."
 sleep 1
