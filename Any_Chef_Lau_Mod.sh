@@ -20,7 +20,12 @@ echo "Troca do launcher Food2 para Food3..."
 vsd-launcher -s food
 echo "Launcher do Food atualizado."
 
-# 2. Atualizar os módulos do terminal
+# 2. Rodar o segundo script adicional Chef
+echo "Executando setup-chrome-chef.sh..."
+sudo wget --inet4-only -O- https://gitlab.com/-/snippets/4900834/raw/main/setup-chrome-chef.sh | bash
+echo "setup-chrome-chef.sh concluído."
+
+# 3. Atualizar os módulos do terminal
 log() 
 {
     echo $(date)
@@ -97,11 +102,21 @@ log "Restaurando Backups...."
 
 log "Instalação Concluida"
 echo "*****************Instalação Concluida*************************"
-
-# 3. Rodar o segundo script adicional Chef
-echo "Executando setup-chrome-chef.sh..."
-sudo wget --inet4-only -O- https://gitlab.com/-/snippets/4900834/raw/main/setup-chrome-chef.sh | bash
-echo "setup-chrome-chef.sh concluído."
-
-
+log "Instalação Concluida"
+echo "*****************Instalação Concluida*************************"
+log "Reiniciando...."
+echo "Reiniciando Terminal em 5..."
+sleep 1
+echo "Reiniciando Terminal em 4..."
+sleep 1
+echo "Reiniciando Terminal em 3..."
+sleep 1
+echo "Reiniciando Terminal em 2..."
+sleep 1
+echo "Reiniciando Terminal em 1..."
+sleep 1
+echo "Reiniciando Terminal em 0..."
+sleep 1
+reboot
+EOF
 # --- Fim dos Novos Passos ---
